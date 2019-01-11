@@ -13,7 +13,7 @@ code which calls the FastIO functions to generate much faster signals.
 The standard digital pin numbers of each Arduino board map to different
 port addresses depending on the chipset in use. FastIO changes the pin
 numbering to be based on the AVR port and not the virtual I/O pin.
-The pin numbers are specified as port (B/C/D/E/F/G) plus bit
+The pin numbers are specified as port (B/C/D/E/F/G) plus bit.
 For example, on the ATmega32u4 (Leonardo / Pro Micro), digital pin 2
 is actually bit 1 of port D. To access that pin with the FastIO library
 you would specify pin number 0xD1.<br>
